@@ -6,9 +6,10 @@ var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
    }
      return array.join("")
 }
+
 function summonCaptainPlanet(planeteerCalls) {
   var planeteerCalls2 = [];
-    for (var i = 0; i < planeteerCalls.length; i++ ){
+   for (var i = 0; i < planeteerCalls.length; i++ ){
       planeteerCalls2.push(planeteerCalls[i].toUpperCase() + '!');
   }
       return planeteerCalls2
