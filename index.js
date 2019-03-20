@@ -31,7 +31,7 @@ function findTheCheese(cheddarCheese){
   return"gouda";
   else if(cheddarCheese.includes("camembert"))
   return "camembert";
-  else 
+  else if (cheddarCheese.includes("swiss"))
+  return"swiss";
   return("no cheese!");
 }
-  
